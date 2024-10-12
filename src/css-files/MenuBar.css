@@ -1,0 +1,127 @@
+/*////// For the menu image \\\\\\*/
+  .menu-logo {
+    height: 50px; 
+    margin-right: 10px; 
+  }
+
+
+/*////// Menu bar stylings \\\\\\\*/
+.menu-bar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .menu-bar ul li {
+    float: left;
+  }
+  .menu-bar ul li:last-child {
+    margin-left: auto; 
+    margin-right: 20px;
+  }
+  
+  .menu-bar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu-bar ul li a:hover {
+    background-color: #111;
+  }
+
+  /*////// Dropdown styles \\\\\\*/
+.dropdown {
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  
+
+  .icon-image {
+    padding-left: 4px;
+    height: 15px; 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 120px;
+    z-index: 1;
+    text-align: left;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #111;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*///// Style for the search bar\\\\\ */ 
+.search-bar {
+    padding: 10px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 250px;
+  }
+
+
+  .notification-icon {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 7px;
+    font-size: 10px;
+  }
+
+  .notification-message {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 120px;
+    text-align: left;
+  }
+  
+  .notification-icon:hover .notification-message {
+    display: block; 
+  }

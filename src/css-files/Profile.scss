@@ -1,0 +1,521 @@
+@use '@carbon/react';
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/containers";
+
+.container {
+    max-width: none !important;
+}
+
+.sideMenu {
+    background-color: #393840;
+    width: 30%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.rowSection1 {
+    margin-bottom: 2rem;
+}
+
+.fileInput {
+    color: white;
+    display: flex;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.content {
+    background-color: #f0f1f2;
+    width: 70%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+}
+
+.profilePage{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+    height: 100%;
+}
+
+.profileBackground {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    width: 10rem;
+    background-color: black;
+    height: 10rem;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: hidden;
+}
+
+.profileHeader {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.profileSections {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 40%;
+}
+
+.menuFormat {
+    margin-top: 2rem;
+    margin-right: auto;
+    font-size: 1.5rem;
+    width: 100%;
+    color: white;
+}
+
+.menuFormat:hover {
+    font-weight: 700 !important;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+}
+
+.subTitle {
+    width: 8rem;
+}
+
+.ProfileContent {
+    margin: 4vw;
+    padding: 4vw;
+    padding-top: 5vw;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.MessagesContent{
+    margin: 4vw;
+    padding-top: 5vw;
+    background-color: white;
+    border-radius: 10%;
+    width: 100%;
+    max-height: 70rem;
+    overflow: scroll !important;
+}
+
+.projectTitle {
+    font-size: 6vw;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.assignmentList {
+    align-items: center;
+    background-color: #f0f1f2;
+    border-radius: 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.toDoMain {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taskName {
+    font-weight: 550;
+}
+
+.rightSide {
+    display: flex;
+    margin-right: 2vw;
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-weight: 200;
+}
+
+.icon-image-card {
+    max-width: 200px;
+    width: 100%;
+}
+
+.rowSection {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+    max-width: 100%;
+    width: 100%;
+}
+
+.cardTable {
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardIcon {
+    width: 100%;
+    max-width: 200px;
+}
+
+.optionTable {
+    padding: 4rem;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 20rem;
+}
+
+.cardMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25rem;
+    width: 20rem;
+    text-align: center;
+    overflow: scroll;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cardMainRepo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20rem;
+    width: 100%;
+    text-align: center;
+    overflow: scroll;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cardMainRepo:hover {
+    background-color: #ededed !important;
+}
+
+.cardText {
+    height: 100% !important;
+    max-height: 8rem !important;
+    overflow: scroll;
+    text-overflow: ellipsis !important;
+}
+
+.areaConstraint {
+    max-width: 25rem;
+}
+
+.boxConstraint {
+    max-width: 12rem;
+}
+
+.textFormat {
+    width: 100%;
+    max-width: 45rem;
+}
+
+.smallIcon {
+    width: 4rem !important;
+    height: 4rem !important;
+    margin-top: 0;
+    margin-left: 2vw;
+    margin-right: 0;
+}
+
+.messageInfo {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.lastMsg {
+    font-weight: 300;
+}
+
+.name {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.searchConstraints {
+    width: 100%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+img.profileImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Messages {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+}
+
+.projectIconAdd {
+    position: static;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 6rem;
+    margin-bottom: 1.5rem;
+    :hover {
+        fill: gray;
+    }
+}
+
+.taskBackground {
+    margin-top: 2rem;
+    background-color: white;
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Message {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    //border-width: 0.1px 0px 0px 0px;    
+    height: 7rem !important;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.line {
+    width: 100%;
+    border: 0.1px solid black;
+    border-style: inset;
+}
+
+.searchConstraints {
+    width: 100%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.repoHomeContent {
+    margin: 8vw;
+    padding: 4vw;
+    padding-top: 8vw;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-height: 52rem;
+    height: 100%;
+    max-width: 50rem;
+    text-align: center;
+    overflow: scroll;
+}
+
+.assignmentListParent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f1f2;
+    border-radius: 15%;
+    padding-top: 2rem;
+    height: 34rem;
+}
+
+.return {
+
+
+    fill: blue;
+    margin-bottom: 2rem;
+
+    :hover {
+        fill: gray
+    }
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    width: 100%;
+}
+
+.title {
+    font-weight: 600;
+    padding-right: 1rem;
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+.nameSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.description {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Sans';
+    line-height: normal;
+    max-width: 45rem;
+    height: 100%;
+    max-height: 60rem;
+}
+
+.editIcon:hover {
+    fill: gray;
+    cursor: pointer;
+    
+}
+
+.checkIcon:hover {
+    fill: gray;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1059px) {
+    .rowSection1 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .profileSections {
+        align-self: center;
+    }
+
+    .profileBackground {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .menuFormat {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .rowSection {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .subTitle {
+        margin-bottom: 0.5rem;
+        align-self: center;
+    }
+
+    .profileHeader {
+        text-align: center;
+    }   
+}
+
+@media only screen and (max-width: 469px) {
+    .rightSide {
+        display: none !important;
+    }
+
+    .nameSection {
+        justify-content: center;
+    }
+
+    .title {
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+}

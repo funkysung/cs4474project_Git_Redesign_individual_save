@@ -1,0 +1,138 @@
+h3 {
+    color:white;
+    padding-left: 10px;
+  }
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #111111;
+    font-family: monospace;
+  }
+  
+  .left-container, .middle-container, .right-container {
+    flex: 1;
+    border: .5px solid #020208;
+    padding: 20px;
+  }
+
+  .editBut{
+    font-size: 15px;
+    color: white;
+    border:none;
+    background-color: #020208;
+    margin-bottom: 4px;
+    cursor:pointer;
+  }
+
+
+  .middle-container h1{
+    text-align: center;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #020208;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .menu-item {
+    margin-bottom: 20px;
+    
+  }
+  
+  .menu-content {
+    padding-left: 20px;
+    padding: 10px;
+    color: white;
+  }
+
+  .menu-content button {
+    background-color: transparent;
+    border-bottom: .5px solid #CCC;
+    padding-bottom: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 0;
+    font-size: inherit;
+    cursor: pointer;
+    color: inherit;
+    width:100%;
+    text-align: left;
+  }
+
+ .menu-content button:hover {
+    width: 100%;
+    background-color: #555;
+  }
+   .menu-content button:last-child{
+    border-bottom: none;
+    padding-bottom: none;
+    
+  }
+
+  .addButt{
+    margin-left: 20px;
+    background-color: #0A0;
+    color:white;
+    border:none;
+    cursor: pointer;
+  }
+
+  .addButt:hover{
+    background-color: #060;
+  }
+  
+  .menu-content2 {
+    padding-left: 20px;
+    
+    color: white;
+  }
+
+  .menu-content2 button {
+    color:white;
+    background-color: transparent;
+    padding-bottom: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin: 0;
+    font-size: inherit;
+    cursor: pointer;
+    color: inherit;
+    width:50%;
+    text-align: left;
+  }
+
+  .menu-content2 button:hover{
+    background-color: #555;
+  }
+
+
+  .menu-content3 li {
+    color:white;
+    list-style-type: none;
+    padding:4px;
+  }
+
+  .menu-content3 h4{
+
+    margin-left: 13px;
+    
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+
+  }
+
+
+
+  .head {
+    text-decoration: underline;
+  }
+
